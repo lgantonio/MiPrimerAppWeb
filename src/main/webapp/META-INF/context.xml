@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource name="jdbc/myoracle" auth="Container" type="javax.sql.DataSource"
+		driverClassName="oracle.jdbc.OracleDriver"
+		url="jdbc:oracle:thin:open4job/open4job@54.154.192.80:1521:xe"
+		username="open4job" password="open4job" maxTotal="20" maxIdle="10"
+		maxWaitMillis="-1" />
+</Context>
